@@ -1,8 +1,7 @@
 import requests
 
 # Weatherstack API anahtarını buraya ekleyin
-API_KEY = 'd3f3cce0d0fba4f748ed67543322b946'
-
+API_KEY = "YOUR APİ KEY"
 def hava_durumu_sorgula(sehir):
     base_url = "http://api.weatherstack.com/current"
     complete_url = f"{base_url}?access_key={API_KEY}&query={sehir}"
